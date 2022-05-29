@@ -23,6 +23,7 @@ h1 {
     color: white;
     padding: 10px;
     border-radius: 3px;
+    
 }
 
 div > p {
@@ -38,6 +39,7 @@ div > p {
     width: 400px;
     font-size: 2rem;
     margin: 10px;
+    transition: 1.7s;
 }
 
 .player-container > p > span {
@@ -49,7 +51,7 @@ div > p {
     justify-content: center;
     grid-template-columns: repeat(3, 0fr);
     width: fit-content;
-    border: black solid 2px;
+    border: black solid 4px;
     border-radius: 5px;
     
 }
@@ -99,7 +101,7 @@ div > p {
 .restart:hover,
 .signature:hover,
 .signature > a:hover {
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .container > div:hover {
